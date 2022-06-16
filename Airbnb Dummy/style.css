@@ -319,6 +319,7 @@ nav .fa-bars{
         margin: 30px auto;
         padding: 20px 10px 30px;
         border-radius: 5px;
+        position: relative;
     }
     .search-bar form{
         display: block;
@@ -329,7 +330,60 @@ nav .fa-bars{
         margin-bottom: 20px;
         margin-top: 10px;
         padding-bottom: 10px;
-    }    
-
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    } 
+    .sub-tatle{
+        font-size: 6vw;
+    }   
+    .cta{
+        padding: 15% 5%;
+    }
+    .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }  
+    .stories p{
+        font-size: 22px;
+    }
+    .about-msg {
+        font-size: 15px;
+    } 
+    
 }
 
+/*------------listing page----------*/
+    
+.navbar-white{
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-white .nav-links li a{
+        color: #000;
+}
+
+.navbar-white .register-btn{
+    background: #ff5361;
+    color: #fff;
+
+}
+nav.navbar-white .fa-bars{
+    color: #000;
+}
+.navbar-white .active::after{
+     background: #ff5361;
+}
