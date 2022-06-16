@@ -279,6 +279,9 @@ nav .fa-bars{
         padding: 100px 7% 0;
         background: #000;
         text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
     }
 
     nav .nav-links li{
@@ -304,5 +307,29 @@ nav .fa-bars{
         transform: translate(0, 50%);
         bottom: 50%;
     }
+    .hidemenu{
+        max-height: 300px;
+    }
+    .header h1{
+        padding-top: 200px;
+        font-size: 7vw;
+    }
+    .search-bar{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+    }
+    .search-bar form{
+        display: block;
+    }
+    .search-bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }    
+
 }
 
