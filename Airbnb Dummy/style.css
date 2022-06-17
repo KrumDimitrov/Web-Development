@@ -530,5 +530,11 @@ nav.navbar-white .fa-bars{
         line-height: 30px;
         font-size: 12px;
     }
-
+ /*-----------------house-details page----------*/
+    
+    .house-details{
+        padding: 0 12%;
+    }
+    
+    
 }
