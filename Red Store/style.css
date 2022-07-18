@@ -168,7 +168,7 @@ small{
 .testimonial .col-3:hover{
     transform: translateY(-10px);
 }
-.cal-3 p{
+.col-3 p{
     font-size: 12px;
     margin: 12px 0;
     color: #777;
@@ -183,11 +183,14 @@ small{
 .brands{
     margin: 100px auto;
 }
-.cal-5{
+.col-5{
     width: 160px;
 }
-.cal-5 img{
+.col-5 img{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
 }
