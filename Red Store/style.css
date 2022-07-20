@@ -308,6 +308,39 @@ select:focus{
 }
 
 
+/*-----------Singal Product Details----------*/
+
+.singler-product{
+    margin-top: 80px;
+}
+.singler-product .col-2 img{
+    padding: 0;
+}
+.singler-product .col-2{
+    padding: 10px;
+}
+.singler-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.singler-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.singler-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-right: 10px;
+    border-radius: 1px solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+
 
 
 /*---media query for less than 600 screen size*---*/
