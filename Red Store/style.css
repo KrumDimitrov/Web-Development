@@ -335,10 +335,18 @@ select:focus{
     padding-left: 10px;
     font-size: 10px;
     margin-right: 10px;
-    border-radius: 1px solid #ff523b;
+    border: 1px solid #ff523b;
 }
 input:focus{
     outline: none;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
 }
 
 
